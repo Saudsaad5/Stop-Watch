@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #222;
+    color: white;
+}
+
+#stopwatch{
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#start { background: green; color: white; }
+#pause { background: orange; color: white; }
+#reset { background: red; color: white; }
+#lap{background-color: blue; color: white;}
+
+button:hover{
+    opacity: 0.8;
+}
+
+ul{
+    font-size: 20px;
+    list-style: none;
+    opacity: 0.75;
+    margin-top: 15px;
+}
+
+ul li{
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#lapList {
+    max-height: 150px; 
+    overflow-y: auto;
+}
+
+
+
